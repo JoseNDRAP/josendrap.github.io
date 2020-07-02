@@ -20,7 +20,11 @@ var fadeShow = $(".background").fadeShow({
 
 
 
-			 'images/bg-image-1.jpg']
+			 'images/bg-image-1.jpg',
+			 'images/bg-image-2.jpg',
+			 'images/bg-image-3.jpg',
+			 'images/bg-image-4.jpg'
+			]
 
 
 
