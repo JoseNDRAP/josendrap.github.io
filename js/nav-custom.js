@@ -159,13 +159,6 @@ $(window).resize(function(e) {
 
 });
 
-// メニュー項目クリックでNavを閉じる
-$(".nav-tabs").find("li").on("click",function() {
-	// sp only
-	if( $("#menu-button").hasClass("menu-opened")) {
-		$("#menu-button").removeClass('menu-opened');
-		$(".nav-tabs").removeClass("open").hide();
-	}
-});
+
 
 });
