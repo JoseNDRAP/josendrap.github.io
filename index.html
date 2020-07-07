@@ -220,14 +220,23 @@
 
 <script src="js/custom.js" type="text/javascript"></script> 
 <script src="js/nav-custom.js" type="text/javascript"></script> 
-
+<script>
+// メニュー項目クリックでNavを閉じる
+$(".nav-tabs").find("li").on("click",function() {
+	// sp only
+	if( $("#menu-button").hasClass("menu-opened")) {
+		$("#menu-button").removeClass('menu-opened');
+		$(".nav-tabs").removeClass("open").hide();
+	}
+});
+</script>
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 
 <script src="js/bootstrap.min.js" type="text/javascript"></script> 
 
 <!-- jquery.countdown --> 
 
-<script src="js/countdown-js.js" type="text/javascript"></script> 
+<!-- <script src="js/countdown-js.js" type="text/javascript"></script>  -->
 
 <!-- slider --> 
 
