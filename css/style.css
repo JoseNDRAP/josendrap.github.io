@@ -232,9 +232,9 @@ header[role="header"] > hgroup nav ul > li{ float:none; display:inline-block; fo
 
 header[role="header"] > hgroup nav ul > li > a{border-radius:0;border:none; padding:0; line-height:52px; display:block;color:#353535}
 
-header[role="header"] > hgroup nav ul > li.active a,header[role="header"] > hgroup nav ul > li a:hover{ background-color: inherit; border:none; color:#e84d49}
+header[role="header"] > hgroup nav ul > li.active a,header[role="header"] > hgroup nav ul > li a:hover{ background-color: inherit; border:none; color:#AD0301}
 
-header[role="header"] > hgroup nav .nav-tabs>li.active>a, header[role="header"] > hgroup nav .nav-tabs>li.active>a:focus, header[role="header"] > hgroup nav .nav-tabs>li.active>a:hover{ background-color: inherit; border:none;color:#e84d49}
+header[role="header"] > hgroup nav .nav-tabs>li.active>a, header[role="header"] > hgroup nav .nav-tabs>li.active>a:focus, header[role="header"] > hgroup nav .nav-tabs>li.active>a:hover{ background-color: inherit; border:none;color:#AD0301}
 
 /*===== Socil-Icons ===*/
 
@@ -262,7 +262,7 @@ footer.mobile{ display:none}
 
 /*===== Countdown ===*/
 
-article[role="countdown"].countdown-pan{ padding-top:21.5%; padding-bottom:21.5%; background-color: rgba(255,255,255,.8);}
+article[role="countdown"].countdown-pan{ padding-top:21.5%; padding-bottom:21.5%;}
 
 article[role="countdown"].countdown-pan h2{font-family: 'Oranienbaum', serif; padding:0; margin:0; font-size:24px; line-height:26px; text-transform:uppercase; font-weight:400; letter-spacing:3px}
 

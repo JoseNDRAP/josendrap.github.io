@@ -98,11 +98,11 @@
 
 	
 
-	#menu-button{ display: block; position:absolute; right:1%; top:-59px; font-size:0; background-color:#353535; padding:3px 7px; cursor:pointer}
+	#menu-button{ display: block; position:absolute; right:1%; top:-59px; font-size:0; background-color:transparent; padding:3px 7px; cursor:pointer}
 
-	#menu-button:hover{background-color:#e84d49;}
+	#menu-button:hover{background-color:transparent;}
 
-	#menu-button i{font-family:'FontAwesome'; font-size:21px; line-height:23px; color:#FFF; font-weight:normal}
+	#menu-button i{font-family:'FontAwesome'; font-size:21px; line-height:23px; color:#353535; font-weight:normal}
 
 	
 
