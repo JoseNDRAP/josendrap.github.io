@@ -148,28 +148,23 @@
 <!-- class, action, methodを変更しないでください -->
 <form class="formrun" action="https://form.run/api/v1/r/vb2j56w2xs3ig93nwm2j6v07" method="post">
   <!-- ↓自由に要素を追加・編集することができます -->
-  <div>
-    <label>お名前</label>
-    <input name="お名前" type="text">
+  <div class="item">
+    <label class="labels" for="name">お名前</label>
+    <input class="inputs" name="お名前" type="text" id="name" placeholder="山田太郎">
   </div>
-
-  <div>
-    <label>メールアドレス [必須]</label>
-    <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+  
+  <div class="item">
+    <label class="labels" for="email">メールアドレス [必須]</label>
+    <input class="inputs" name="メールアドレス" type="text" id="email" placeholder="example@gmail.com" data-formrun-type="email" data-formrun-required>
     <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
   </div>
-
-  <div>
-    <label>お問い合わせ [必須]</label>
-    <textarea name="お問い合わせ" data-formrun-required></textarea>
-    <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
+  
+  <div class="item">
+    <label class="labels" for="letter">お問い合わせ [必須]</label>
+    <textarea class="inputs" name="お問い合わせ" id="letter" placeholder="ここには自由にコメントを記入してください" data-formrun-required></textarea>
+    <div data-formrun-show-if-error="お問い合わせ">お問い合わせを入力してください</div>
   </div>
 
-  <div>
-    <label>個人情報利用同意 [必須]</label>
-    <input type="checkbox" name="個人情報利用同意" data-formrun-required>
-    <div data-formrun-show-if-error="個人情報利用同意">同意してください</div>
-  </div>
 
   <!-- ボット投稿をブロックするためのタグ -->
   <div class="_formrun_gotcha">
@@ -177,8 +172,11 @@
     <label for="_formrun_gotcha">If you are a human, ignore this field</label>
     <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
   </div>
+  
+  <div class="btn-area">
+  <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信する</button>
+</div>
 
-  <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
 </form>
  <!-- formrun お問い合わせ end-->
 
