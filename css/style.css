@@ -348,6 +348,8 @@ article[role="contact"].contact-pan ul > li > a{ color:#353535;text-decoration:n
 
 article[role="contact"].contact-pan a:hover{ color:#e84d49}
 
+/* form css */
+
 .lead-form{
 	text-align: center;
 	font-size:20px;

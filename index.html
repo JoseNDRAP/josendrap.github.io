@@ -41,7 +41,6 @@
 </head>
 
 <body>
-
 <!-- Full Page Image Background Carousel Header -->
 
 <div class="background"></div>
@@ -198,8 +197,12 @@
 <header role="header">
   <hgroup> 
     
-    <!-- logog -->
-    <h1><a href="#"><img src="images/logo.png" alt="サイトタイトル" width="75px" height="auto"></a></h1>
+    <!-- logo -->
+    <h1>
+      <a href="#home" data-toggle="tab">
+        <img src="images/logo.png" alt="サイトタイトル" width="75px" height="auto">
+      </a>
+    </h1>
     <!-- <h1> <a href="#" title="Pixicon">LOGO</a> </h1> -->
     
     <!-- logog --> 
@@ -214,8 +217,12 @@
         <li><a data-toggle="tab" href="#menu3" title="Contact">Contact</a></li>
       </ul>
       <div role="socil-icons" class="mobile-social">
-        <li><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        <li><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li>
+            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Coming%20soon%20https://newdistributionrecord.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a target="_blank" title="facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent('[https://newdistributionrecord.com.com]'),'facebook-share-dialog','width=626,height=436'); return false;"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        </li>
         <li><a href="#" target="_blank" title="google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
         <li><a href="#" target="_blank" title="pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
       </div>
@@ -226,8 +233,12 @@
     <!-- Socil Icon -->
     
     <ul role="socil-icons" class="desk-social">
-      <li><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-      <li><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+      <li>
+          <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Coming%20soon%20https://newdistributionrecord.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </li>
+      <li>
+          <a target="_blank" title="facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent('[https://newdistributionrecord.com.com]'),'facebook-share-dialog','width=626,height=436'); return false;"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      </li>
       <li><a href="#" target="_blank" title="google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
       <li><a href="#" target="_blank" title="pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
     </ul>
@@ -261,6 +272,9 @@ $(".nav-tabs").find("li").on("click",function() {
 		$(".nav-tabs").removeClass("open").hide();
 	}
 });
+
+
+
 </script>
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 
