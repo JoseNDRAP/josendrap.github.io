@@ -348,7 +348,7 @@ article[role="contact"].contact-pan ul > li > a{ color:#353535;text-decoration:n
 
 article[role="contact"].contact-pan a:hover{ color:#e84d49}
 
-.line-icon {
+.btnWrap.shareEl img {
 	width: 12.16px;
 	height: 13px;
 }
