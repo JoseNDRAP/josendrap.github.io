@@ -114,7 +114,7 @@
 
 	article.introduction-pan[role="introduction"] ul > li,article.contact-pan[role="contact"] ul > li{ display:block; margin:0; margin-bottom:20px}
 
-	article.subscribe-pan[role="subscribe"] form{ width:100%}
+	article.subscribe-pan[role="subscribe"] form{ width:300px}
 
 	article.subscribe-pan[role="subscribe"] form input[type="email"]{ width:79.2%}
 
