@@ -232,9 +232,9 @@ header[role="header"] > hgroup nav ul > li{ float:none; display:inline-block; fo
 
 header[role="header"] > hgroup nav ul > li > a{border-radius:0;border:none; padding:0; line-height:52px; display:block;color:#353535}
 
-header[role="header"] > hgroup nav ul > li.active a,header[role="header"] > hgroup nav ul > li a:hover{ background-color: inherit; border:none; color:#AD0301}
+header[role="header"] > hgroup nav ul > li.active a,header[role="header"] > hgroup nav ul > li a:hover{ background-color: inherit; border:none; color:#e84d49}
 
-header[role="header"] > hgroup nav .nav-tabs>li.active>a, header[role="header"] > hgroup nav .nav-tabs>li.active>a:focus, header[role="header"] > hgroup nav .nav-tabs>li.active>a:hover{ background-color: inherit; border:none;color:#AD0301}
+header[role="header"] > hgroup nav .nav-tabs>li.active>a, header[role="header"] > hgroup nav .nav-tabs>li.active>a:focus, header[role="header"] > hgroup nav .nav-tabs>li.active>a:hover{ background-color: inherit; border:none;color:#e84d49}
 
 /*===== Socil-Icons ===*/
 
@@ -402,6 +402,7 @@ article[role="contact"].contact-pan a:hover{ color:#e84d49}
 	font-weight:bold;
 	padding: 10px 20px;
 	margin: 0 5px;
+	border-radius: 4px;
   }
 
 
