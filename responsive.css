@@ -2,11 +2,11 @@
 
 @media (min-width:1400px) and (max-width:1920px) {
 
-	article.countdown-pan[role="countdown"]{padding-top:31.5%; padding-bottom:31.5%;}
+	article.countdown-pan[role="countdown"]{padding-top:23.6%; padding-bottom:23.6%;}
 
-	article.introduction-pan[role="introduction"]{ padding-top:23.6%; padding-bottom:23.6%;}
+	article.introduction-pan[role="introduction"]{ padding-top:15.5%; padding-bottom:15.5%;}
 
-	article.subscribe-pan[role="subscribe"]{padding-top:32.6%; padding-bottom:32.6%;}
+	article.subscribe-pan[role="subscribe"]{padding-top:15.5%; padding-bottom:15.5%;}
 
 	article.contact-pan[role="contact"]{ padding-top:15.5%; padding-bottom:15.5%;}
 
@@ -32,7 +32,7 @@
 
 	article.introduction-pan[role="introduction"]{ padding-top:23.6%; padding-bottom:23.6%;}
 
-	article.subscribe-pan[role="subscribe"]{ padding-top:53.5%; padding-bottom:53.5%;}
+	article.subscribe-pan[role="subscribe"]{ padding-top:14.5%; padding-bottom:14.5%;}
 
 	article.contact-pan[role="contact"]{ padding-top:23.5%; padding-bottom:23.5%;}
 
@@ -114,7 +114,7 @@
 
 	article.introduction-pan[role="introduction"] ul > li,article.contact-pan[role="contact"] ul > li{ display:block; margin:0; margin-bottom:20px}
 
-	article.subscribe-pan[role="subscribe"] form{ width:100%}
+	article.subscribe-pan[role="subscribe"] form{ width:300px}
 
 	article.subscribe-pan[role="subscribe"] form input[type="email"]{ width:79.2%}
 
@@ -131,5 +131,16 @@
 	article.countdown-pan[role="countdown"],article.subscribe-pan[role="subscribe"],article.contact-pan[role="contact"]{ padding-bottom:60%; padding-top:60%}
 
 	article.introduction-pan[role="introduction"]{ padding-top:55.6%; padding-bottom:40.6%;}
+
+	/* sp form */
+
+	form {
+		width: 300px;
+	}
+	.item .labels {
+		width: auto;
+		margin-bottom: 10px;
+	}
+
 
 }
